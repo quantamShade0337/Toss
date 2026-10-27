@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087521312177A8C995ABD74F /* MainTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9AD758E475B10DE5EAF6 /* MainTabs.swift */; };
+		0D7A8D2D960F2F84AEEA3936 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825AD9A3609AAF353256F6ED /* NotificationSettingsView.swift */; };
+		14D2747CC8024BC393A988DA /* TossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0810C677E6703F828872A12F /* TossUITests.swift */; };
+		14D27FA5F0B0057CB9EDC394 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA39B2AD6F4F454762240002 /* SettingsView.swift */; };
+		31B4CB9E38923938AFD94FDC /* EventCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AFA2F6AF3ECF3F6F75C6CC /* EventCreationView.swift */; };
+		3899AA9501ACFB6C63CE6ADA /* RecoveryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A22D0A97B887AEB365C9887 /* RecoveryViews.swift */; };
+		3D5625ED96E60DEF727D4A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD64A813B8F6A7B309C18680 /* Assets.xcassets */; };
+		4928F634DBD7808723E2A3B5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B2179310EBBA6ADE34FCC /* ShareViewController.swift */; };
+		492C10E3AA45631A82A1CA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9152D7F38C518C008A634EE3 /* Assets.xcassets */; };
+		4A384ECC348E4C3A3284DC3E /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825AD9A3609AAF353256F6ED /* NotificationSettingsView.swift */; };
+		58FE09CD170CC61B13519F78 /* RecoveryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A22D0A97B887AEB365C9887 /* RecoveryViews.swift */; };
+		5AB1C2D52CF44BED00FCB4D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6C5997B434B182B4B8F619D4 /* PrivacyInfo.xcprivacy */; };
+		5B93C9B766600D14DFAB40A2 /* TossShare-macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D25BE8157E0117B66A79B334 /* TossShare-macOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69B0923FB5336098C27669A0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E738E3B2DAFBC0FB2214B11D /* PrivacyInfo.xcprivacy */; };
+		6B8EC565C4EE1EC46B1B3552 /* EventCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AFA2F6AF3ECF3F6F75C6CC /* EventCreationView.swift */; };
+		6CEF8F7208E2F3622BDFCDA5 /* TossCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1716C200A798213E2D4CE8ED /* TossCore */; };
+		7756B71DFCBED4B85CC37237 /* ShareExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4263308B0F249F3CDFFE4B8 /* ShareExtensionView.swift */; };
+		7BCD7DA5E96F7C3FD4A96D63 /* PreviewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8792C484E3EAF3A29162A08 /* PreviewFixtures.swift */; };
+		7C633D444E37B3915A71F770 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4203EA930AE73D1D8E8F0920 /* OnboardingView.swift */; };
+		7CB954551E577C33E489ACDD /* PreviewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8792C484E3EAF3A29162A08 /* PreviewFixtures.swift */; };
+		865B8CC672A338A7B6F59F9E /* TransferViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A680BDC27CBC9B114DEEBF3 /* TransferViews.swift */; };
+		89D959BB2E7E7952096F1B4E /* UITestFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7A1A72CB751CD94B5E336 /* UITestFixtures.swift */; };
+		96B2E316CAE3F08F5431A125 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB982A9421DABA040E9629E1 /* SendView.swift */; };
+		987BCF1952D048D06B01D9E3 /* PairingScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669665AEF8C261F7254DC8A /* PairingScannerView.swift */; };
+		9C04A528DB9EEA2CA5EF5C4F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 54C939C3194EEA91F77137C3 /* PrivacyInfo.xcprivacy */; };
+		A87016A3AC67EF42D562A69D /* TossMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9194F2ED1478D4C2174B2A /* TossMacApp.swift */; };
+		B3F97C0C855125F92F397CD2 /* ShareExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4263308B0F249F3CDFFE4B8 /* ShareExtensionView.swift */; };
+		B4651137BF62AE55CD28A9AA /* TossCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0346B8CCE4DA95E1AE6E7EB4 /* TossCore */; };
+		B4A106146361BA017CF3426A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E33DE828DDD2F01B59578 /* ShareViewController.swift */; };
+		BBBAA71CE9BD386FE3CB0654 /* TossCore in Frameworks */ = {isa = PBXBuildFile; productRef = 31F0BB8ACCDE73C42FB3A82E /* TossCore */; };
+		BC249970CD5BE6FD657AA866 /* TransferViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A680BDC27CBC9B114DEEBF3 /* TransferViews.swift */; };
+		BC40D880DE75F5BD30BA4460 /* IncomingNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AE1D5E5D916C0A2CC0CFE /* IncomingNotifier.swift */; };
+		CCDEA9031B9ED250C8025A7D /* TossCore in Frameworks */ = {isa = PBXBuildFile; productRef = 385B607DEF35961E721D2A68 /* TossCore */; };
+		D2D5639E09C40F0FC293740F /* MacViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3395B77A19C44577A32A9809 /* MacViews.swift */; };
+		D52C49651AAABC40F3186939 /* TossShare-iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 622B4B4060B7C71DBEDE81CE /* TossShare-iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC6130DEC5C5C399ED013690 /* TossiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AA3D9EED1109387487F /* TossiOSApp.swift */; };
+		FCD0E896BCFE25FB050E7626 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F33C512EA311CC42AE9E7 /* PrivacyInfo.xcprivacy */; };
+		FE6FB38DB988AF44345FFFFF /* IncomingNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AE1D5E5D916C0A2CC0CFE /* IncomingNotifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAD102B9A650E199563FB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49F5F50E7184D247A68DC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC0773D41E90480C4314382;
+			remoteInfo = "TossShare-macOS";
+		};
+		3CD41193336635EC9BBDC577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49F5F50E7184D247A68DC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E4705FD52D4659C15C4ACF;
+			remoteInfo = "TossShare-iOS";
+		};
+		CEC6F165018A5AAFF3142B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49F5F50E7184D247A68DC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14A39862CC195BFD70CC981;
+			remoteInfo = "Toss-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		921E17A504596E297CC5D146 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D52C49651AAABC40F3186939 /* TossShare-iOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D29D7EBA998D84C5D9263 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B93C9B766600D14DFAB40A2 /* TossShare-macOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0810C677E6703F828872A12F /* TossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossUITests.swift; sourceTree = "<group>"; };
+		0A5490995CEB6CB74EBBBEC6 /* TossCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TossCore; path = Packages/TossCore; sourceTree = SOURCE_ROOT; };
+		129B3FFD481066F20BAC2F4F /* TossUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AFA2F6AF3ECF3F6F75C6CC /* EventCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationView.swift; sourceTree = "<group>"; };
+		3395B77A19C44577A32A9809 /* MacViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacViews.swift; sourceTree = "<group>"; };
+		3846FC5B1A6FF88BB5BD9402 /* Toss-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Toss-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC7A1A72CB751CD94B5E336 /* UITestFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestFixtures.swift; sourceTree = "<group>"; };
+		4203EA930AE73D1D8E8F0920 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		435B2179310EBBA6ADE34FCC /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		54C939C3194EEA91F77137C3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		597503BFAE6FC5FA9DF1E01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		622B4B4060B7C71DBEDE81CE /* TossShare-iOS.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = "TossShare-iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5997B434B182B4B8F619D4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7A680BDC27CBC9B114DEEBF3 /* TransferViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViews.swift; sourceTree = "<group>"; };
+		7D1F33C512EA311CC42AE9E7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		825AD9A3609AAF353256F6ED /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		8CBDBDAA01712C9C4B5EFC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8F0AE1D5E5D916C0A2CC0CFE /* IncomingNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingNotifier.swift; sourceTree = "<group>"; };
+		9152D7F38C518C008A634EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9669665AEF8C261F7254DC8A /* PairingScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingScannerView.swift; sourceTree = "<group>"; };
+		9A22D0A97B887AEB365C9887 /* RecoveryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViews.swift; sourceTree = "<group>"; };
+		A153621A8293518B2FEA8813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A4263308B0F249F3CDFFE4B8 /* ShareExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionView.swift; sourceTree = "<group>"; };
+		A8792C484E3EAF3A29162A08 /* PreviewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewFixtures.swift; sourceTree = "<group>"; };
+		AA39B2AD6F4F454762240002 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AB508076967EDDA9790C9E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8609AA3D9EED1109387487F /* TossiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossiOSApp.swift; sourceTree = "<group>"; };
+		D25BE8157E0117B66A79B334 /* TossShare-macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TossShare-macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25E33DE828DDD2F01B59578 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		DD64A813B8F6A7B309C18680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BA9AD758E475B10DE5EAF6 /* MainTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabs.swift; sourceTree = "<group>"; };
+		E4194F3C4D0986A93E756073 /* Toss-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toss-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E738E3B2DAFBC0FB2214B11D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EE9194F2ED1478D4C2174B2A /* TossMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossMacApp.swift; sourceTree = "<group>"; };
+		FB982A9421DABA040E9629E1 /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B6599535537AF2A4519951D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBAA71CE9BD386FE3CB0654 /* TossCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AA78FC1E10D358695FE1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDEA9031B9ED250C8025A7D /* TossCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D52A9C2A0BA2B85E3C5DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEF8F7208E2F3622BDFCDA5 /* TossCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE830E7836567EC9D2018189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4651137BF62AE55CD28A9AA /* TossCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EE517013C2DFDD2D39BBE0 /* TossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0810C677E6703F828872A12F /* TossUITests.swift */,
+			);
+			name = TossUITests;
+			path = Tests/TossUITests;
+			sourceTree = "<group>";
+		};
+		1CA70658539D9AC59086AE47 = {
+			isa = PBXGroup;
+			children = (
+				93F2CF658147356371573E38 /* iOS */,
+				B6AAA4ACB34B2EC6DE0DA148 /* iOS */,
+				C6AF93F8CC013081AD171C0B /* macOS */,
+				BF322FE16B5454DD7FB46749 /* macOS */,
+				DB84CB254D6C0004480DD1B0 /* Packages */,
+				2CCAE810625619A03D2A2C5C /* Shared */,
+				636DB5DF5B9C8126E380D316 /* Shared */,
+				09EE517013C2DFDD2D39BBE0 /* TossUITests */,
+				4AB94BA0DC22A59F745A32FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCAE810625619A03D2A2C5C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				23AFA2F6AF3ECF3F6F75C6CC /* EventCreationView.swift */,
+				8F0AE1D5E5D916C0A2CC0CFE /* IncomingNotifier.swift */,
+				825AD9A3609AAF353256F6ED /* NotificationSettingsView.swift */,
+				A8792C484E3EAF3A29162A08 /* PreviewFixtures.swift */,
+				9A22D0A97B887AEB365C9887 /* RecoveryViews.swift */,
+				7A680BDC27CBC9B114DEEBF3 /* TransferViews.swift */,
+			);
+			name = Shared;
+			path = Apps/Shared;
+			sourceTree = "<group>";
+		};
+		4AB94BA0DC22A59F745A32FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3846FC5B1A6FF88BB5BD9402 /* Toss-iOS.app */,
+				E4194F3C4D0986A93E756073 /* Toss-macOS.app */,
+				622B4B4060B7C71DBEDE81CE /* TossShare-iOS.appex */,
+				D25BE8157E0117B66A79B334 /* TossShare-macOS.appex */,
+				129B3FFD481066F20BAC2F4F /* TossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636DB5DF5B9C8126E380D316 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A4263308B0F249F3CDFFE4B8 /* ShareExtensionView.swift */,
+			);
+			name = Shared;
+			path = Extensions/Shared;
+			sourceTree = "<group>";
+		};
+		93F2CF658147356371573E38 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9152D7F38C518C008A634EE3 /* Assets.xcassets */,
+				8CBDBDAA01712C9C4B5EFC0E /* Info.plist */,
+				E1BA9AD758E475B10DE5EAF6 /* MainTabs.swift */,
+				4203EA930AE73D1D8E8F0920 /* OnboardingView.swift */,
+				9669665AEF8C261F7254DC8A /* PairingScannerView.swift */,
+				E738E3B2DAFBC0FB2214B11D /* PrivacyInfo.xcprivacy */,
+				FB982A9421DABA040E9629E1 /* SendView.swift */,
+				AA39B2AD6F4F454762240002 /* SettingsView.swift */,
+				C8609AA3D9EED1109387487F /* TossiOSApp.swift */,
+				3BC7A1A72CB751CD94B5E336 /* UITestFixtures.swift */,
+			);
+			name = iOS;
+			path = Apps/iOS;
+			sourceTree = "<group>";
+		};
+		B6AAA4ACB34B2EC6DE0DA148 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				597503BFAE6FC5FA9DF1E01B /* Info.plist */,
+				7D1F33C512EA311CC42AE9E7 /* PrivacyInfo.xcprivacy */,
+				435B2179310EBBA6ADE34FCC /* ShareViewController.swift */,
+			);
+			name = iOS;
+			path = Extensions/iOS;
+			sourceTree = "<group>";
+		};
+		BF322FE16B5454DD7FB46749 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB508076967EDDA9790C9E9B /* Info.plist */,
+				54C939C3194EEA91F77137C3 /* PrivacyInfo.xcprivacy */,
+				D25E33DE828DDD2F01B59578 /* ShareViewController.swift */,
+			);
+			name = macOS;
+			path = Extensions/macOS;
+			sourceTree = "<group>";
+		};
+		C6AF93F8CC013081AD171C0B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD64A813B8F6A7B309C18680 /* Assets.xcassets */,
+				A153621A8293518B2FEA8813 /* Info.plist */,
+				3395B77A19C44577A32A9809 /* MacViews.swift */,
+				6C5997B434B182B4B8F619D4 /* PrivacyInfo.xcprivacy */,
+				EE9194F2ED1478D4C2174B2A /* TossMacApp.swift */,
+			);
+			name = macOS;
+			path = Apps/macOS;
+			sourceTree = "<group>";
+		};
+		DB84CB254D6C0004480DD1B0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0A5490995CEB6CB74EBBBEC6 /* TossCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E4705FD52D4659C15C4ACF /* TossShare-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B93C6E6CE703174391A9D7A /* Build configuration list for PBXNativeTarget "TossShare-iOS" */;
+			buildPhases = (
+				81B7D052209D872CFDFC0ABF /* Sources */,
+				BD2A03018CB340949CF0E5AE /* Resources */,
+				1B6599535537AF2A4519951D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TossShare-iOS";
+			packageProductDependencies = (
+				31F0BB8ACCDE73C42FB3A82E /* TossCore */,
+			);
+			productName = "TossShare-iOS";
+			productReference = 622B4B4060B7C71DBEDE81CE /* TossShare-iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		518FA6EA76CCA6F751869534 /* TossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF8FD1DD870DE99A8FB04F8 /* Build configuration list for PBXNativeTarget "TossUITests" */;
+			buildPhases = (
+				E1578AD4BE5ACABEE448ED4F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7239727A410F693092846BD7 /* PBXTargetDependency */,
+			);
+			name = TossUITests;
+			packageProductDependencies = (
+			);
+			productName = TossUITests;
+			productReference = 129B3FFD481066F20BAC2F4F /* TossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6AC527F965CF5F60422699F5 /* Toss-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4047E98BDE69CBD6BC35E140 /* Build configuration list for PBXNativeTarget "Toss-macOS" */;
+			buildPhases = (
+				F4742BF146AAFF8F4C542F23 /* Sources */,
+				1833C453F8A03B141CF40DF4 /* Resources */,
+				F7D52A9C2A0BA2B85E3C5DE9 /* Frameworks */,
+				B60D29D7EBA998D84C5D9263 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8675A798EB50D3FE00F92C45 /* PBXTargetDependency */,
+			);
+			name = "Toss-macOS";
+			packageProductDependencies = (
+				1716C200A798213E2D4CE8ED /* TossCore */,
+			);
+			productName = "Toss-macOS";
+			productReference = E4194F3C4D0986A93E756073 /* Toss-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D14A39862CC195BFD70CC981 /* Toss-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0DF77ABD778D77926A3112 /* Build configuration list for PBXNativeTarget "Toss-iOS" */;
+			buildPhases = (
+				B46716B4261B5763577201A8 /* Sources */,
+				575A5B7016F8E9CA0C09CF81 /* Resources */,
+				24AA78FC1E10D358695FE1E0 /* Frameworks */,
+				921E17A504596E297CC5D146 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA48BE7198A9B47D38D45B2 /* PBXTargetDependency */,
+			);
+			name = "Toss-iOS";
+			packageProductDependencies = (
+				385B607DEF35961E721D2A68 /* TossCore */,
+			);
+			productName = "Toss-iOS";
+			productReference = 3846FC5B1A6FF88BB5BD9402 /* Toss-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC0773D41E90480C4314382 /* TossShare-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68111F2775895FF6219AF6C3 /* Build configuration list for PBXNativeTarget "TossShare-macOS" */;
+			buildPhases = (
+				DA792831D4A9E41939FCCA04 /* Sources */,
+				94BE9549C4FF64C23D482B27 /* Resources */,
+				FE830E7836567EC9D2018189 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TossShare-macOS";
+			packageProductDependencies = (
+				0346B8CCE4DA95E1AE6E7EB4 /* TossCore */,
+			);
+			productName = "TossShare-macOS";
+			productReference = D25BE8157E0117B66A79B334 /* TossShare-macOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49F5F50E7184D247A68DC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					07E4705FD52D4659C15C4ACF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					518FA6EA76CCA6F751869534 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = D14A39862CC195BFD70CC981;
+					};
+					6AC527F965CF5F60422699F5 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					D14A39862CC195BFD70CC981 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					EBC0773D41E90480C4314382 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 863EC7EA473E950D8E8D6731 /* Build configuration list for PBXProject "Toss" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1CA70658539D9AC59086AE47;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3AB1F6A41655470A46766DBA /* XCLocalSwiftPackageReference "Packages/TossCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4AB94BA0DC22A59F745A32FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14A39862CC195BFD70CC981 /* Toss-iOS */,
+				6AC527F965CF5F60422699F5 /* Toss-macOS */,
+				07E4705FD52D4659C15C4ACF /* TossShare-iOS */,
+				EBC0773D41E90480C4314382 /* TossShare-macOS */,
+				518FA6EA76CCA6F751869534 /* TossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1833C453F8A03B141CF40DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5625ED96E60DEF727D4A38 /* Assets.xcassets in Resources */,
+				5AB1C2D52CF44BED00FCB4D2 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575A5B7016F8E9CA0C09CF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C10E3AA45631A82A1CA82 /* Assets.xcassets in Resources */,
+				69B0923FB5336098C27669A0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BE9549C4FF64C23D482B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C04A528DB9EEA2CA5EF5C4F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A03018CB340949CF0E5AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD0E896BCFE25FB050E7626 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B7D052209D872CFDFC0ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F97C0C855125F92F397CD2 /* ShareExtensionView.swift in Sources */,
+				4928F634DBD7808723E2A3B5 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46716B4261B5763577201A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B4CB9E38923938AFD94FDC /* EventCreationView.swift in Sources */,
+				BC40D880DE75F5BD30BA4460 /* IncomingNotifier.swift in Sources */,
+				087521312177A8C995ABD74F /* MainTabs.swift in Sources */,
+				4A384ECC348E4C3A3284DC3E /* NotificationSettingsView.swift in Sources */,
+				7C633D444E37B3915A71F770 /* OnboardingView.swift in Sources */,
+				987BCF1952D048D06B01D9E3 /* PairingScannerView.swift in Sources */,
+				7BCD7DA5E96F7C3FD4A96D63 /* PreviewFixtures.swift in Sources */,
+				3899AA9501ACFB6C63CE6ADA /* RecoveryViews.swift in Sources */,
+				96B2E316CAE3F08F5431A125 /* SendView.swift in Sources */,
+				14D27FA5F0B0057CB9EDC394 /* SettingsView.swift in Sources */,
+				DC6130DEC5C5C399ED013690 /* TossiOSApp.swift in Sources */,
+				BC249970CD5BE6FD657AA866 /* TransferViews.swift in Sources */,
+				89D959BB2E7E7952096F1B4E /* UITestFixtures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA792831D4A9E41939FCCA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7756B71DFCBED4B85CC37237 /* ShareExtensionView.swift in Sources */,
+				B4A106146361BA017CF3426A /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1578AD4BE5ACABEE448ED4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D2747CC8024BC393A988DA /* TossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4742BF146AAFF8F4C542F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8EC565C4EE1EC46B1B3552 /* EventCreationView.swift in Sources */,
+				FE6FB38DB988AF44345FFFFF /* IncomingNotifier.swift in Sources */,
+				D2D5639E09C40F0FC293740F /* MacViews.swift in Sources */,
+				0D7A8D2D960F2F84AEEA3936 /* NotificationSettingsView.swift in Sources */,
+				7CB954551E577C33E489ACDD /* PreviewFixtures.swift in Sources */,
+				58FE09CD170CC61B13519F78 /* RecoveryViews.swift in Sources */,
+				A87016A3AC67EF42D562A69D /* TossMacApp.swift in Sources */,
+				865B8CC672A338A7B6F59F9E /* TransferViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7239727A410F693092846BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14A39862CC195BFD70CC981 /* Toss-iOS */;
+			targetProxy = CEC6F165018A5AAFF3142B4C /* PBXContainerItemProxy */;
+		};
+		8675A798EB50D3FE00F92C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC0773D41E90480C4314382 /* TossShare-macOS */;
+			targetProxy = 1DAD102B9A650E199563FB6C /* PBXContainerItemProxy */;
+		};
+		9AA48BE7198A9B47D38D45B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E4705FD52D4659C15C4ACF /* TossShare-iOS */;
+			targetProxy = 3CD41193336635EC9BBDC577 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FF77C00E5DE1C942AB8F2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Config/Toss-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Apps/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.mac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1584F9936CEC6DEB3D559C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Config/Toss-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Apps/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.mac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F2C2A258C2C73B018834E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Config/Toss-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Apps/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B0D726F41DA6CDE944E5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toss-iOS";
+			};
+			name = Release;
+		};
+		3A1A10946B56C6894953A7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Config/TossShare-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Extensions/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.mac.share;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		61419C1170F9DB660F23E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Config/TossShare-iOS.entitlements";
+				INFOPLIST_FILE = Extensions/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.share;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B655919A86A0DEE5231FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toss-iOS";
+			};
+			name = Debug;
+		};
+		73626C55645F576F94ED5CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Config/TossShare-iOS.entitlements";
+				INFOPLIST_FILE = Extensions/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.share;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C524690CAF0CC982AECE5556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Config/Toss-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Apps/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE72FDF7175173C6228A6DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Config/TossShare-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Extensions/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansoh.toss.mac.share;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E313AB46C6F7BAAB9DACF36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		EC1499032BD2A90DAB8DDCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4047E98BDE69CBD6BC35E140 /* Build configuration list for PBXNativeTarget "Toss-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF77C00E5DE1C942AB8F2BB /* Debug */,
+				1584F9936CEC6DEB3D559C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68111F2775895FF6219AF6C3 /* Build configuration list for PBXNativeTarget "TossShare-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1A10946B56C6894953A7DB /* Debug */,
+				CE72FDF7175173C6228A6DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		863EC7EA473E950D8E8D6731 /* Build configuration list for PBXProject "Toss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E313AB46C6F7BAAB9DACF36D /* Debug */,
+				EC1499032BD2A90DAB8DDCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B93C6E6CE703174391A9D7A /* Build configuration list for PBXNativeTarget "TossShare-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61419C1170F9DB660F23E571 /* Debug */,
+				73626C55645F576F94ED5CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BFF8FD1DD870DE99A8FB04F8 /* Build configuration list for PBXNativeTarget "TossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B655919A86A0DEE5231FB9E /* Debug */,
+				37B0D726F41DA6CDE944E5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB0DF77ABD778D77926A3112 /* Build configuration list for PBXNativeTarget "Toss-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2C2A258C2C73B018834E12 /* Debug */,
+				C524690CAF0CC982AECE5556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3AB1F6A41655470A46766DBA /* XCLocalSwiftPackageReference "Packages/TossCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TossCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0346B8CCE4DA95E1AE6E7EB4 /* TossCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TossCore;
+		};
+		1716C200A798213E2D4CE8ED /* TossCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TossCore;
+		};
+		31F0BB8ACCDE73C42FB3A82E /* TossCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TossCore;
+		};
+		385B607DEF35961E721D2A68 /* TossCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TossCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C49F5F50E7184D247A68DC24 /* Project object */;
+}

@@ -1,0 +1,33 @@
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Local build output and IDE state
+.DS_Store
+.build/
+build/
+DerivedData/
+.derived-data/
+.sim-derived/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+*.xcarchive
+*.dSYM/
+.gradle/
+.idea/
+local.properties
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+!.env.local.example
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+*.keystore
+*.jks
